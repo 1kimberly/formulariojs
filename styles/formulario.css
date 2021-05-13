@@ -1,0 +1,31 @@
+*{font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;}
+   
+    .letra-t{
+        color: rgb(241, 241, 241);
+    }
+    
+    .form-container{
+        
+            padding: 4rem ;
+            width: 30%;
+            height: 20rem;
+            /*border es para las medidas y color de borde*/
+            border: solid 0.1rem grey;
+            border-radius: 0.4rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: -11px 11px 10px rgb(0, 0, 0);
+            background-color: rgb(180, 132, 142);
+    }
+
+    .forma{
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    .bg-imagen{
+        background-image: url(../styles/img/img3.jpeg) ;
+    }
